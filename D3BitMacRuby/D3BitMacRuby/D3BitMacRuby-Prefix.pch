@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'D3BitMacRuby' target in the 'D3BitMacRuby' project
+//
+
+#ifdef __OBJC__
+  #import <Cocoa/Cocoa.h>
+#endif
