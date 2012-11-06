@@ -33,10 +33,16 @@ $ cp -r Resources/tesseract/ D3BitMacGUI/D3BitMacGUI/bin/Debug/D3BitMacGUI.app/C
 ```
 $ which tesseract
 /usr/local/bin/tesseract
-$ ln -s /usr/local/bin/tesseract D3BitMacGUI/D3BitMacGUI/bin/Release/D3BitMacGUI.app/Contents/MonoBundle/tesseract/tesseract_mac
+$ ln -s /usr/local/bin/tesseract D3BitMacGUI/D3BitMacGUI/bin/Debug/D3BitMacGUI.app/Contents/MonoBundle/tesseract/tesseract_mac
 ```
 
 ## Mac OS X Screen Shots
+
+Switch between PNG and BMP
+```
+$ defaults write com.apple.screencapture type bmp
+$ defaults write com.apple.screencapture type png
+```
 
 Command + shift + 4
 
